@@ -1,2 +1,6 @@
 
 .DS_Store
+*.pkl
+*.npy
+vocab_cut.txt
+vocab_full.txt
