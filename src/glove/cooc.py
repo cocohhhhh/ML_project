@@ -5,7 +5,7 @@ import pickle
 
 
 def main():
-    with open("vocab.pkl", "rb") as f:
+    with open("manipulated/vocab.pkl", "rb") as f:
         vocab = pickle.load(f)
 
     data, row, col = [], [], []
@@ -27,7 +27,7 @@ def main():
     cooc = coo_matrix((data, (row, col)))
     print("summing duplicates (this can take a while)")
     cooc.sum_duplicates()
-    with open("cooc.pkl", "wb") as f:
+    with open("manipulated/cooc.pkl", "wb") as f:
         pickle.dump(cooc, f, pickle.HIGHEST_PROTOCOL)
 
 
