@@ -14,15 +14,15 @@ EPOCH = 5
 # Model
 TWITTER_ROBERTA_MODEL = f"cardiffnlp/twitter-roberta-base-sentiment-latest"
 # Trained model path
-MODEL_FOLDER = "../manipulated/RoBERTa/"
-MODEL_PATH = "fold_model_final.bin"
+MODEL_FOLDER = "../../manipulated/RoBERTa/"
+MODEL_PATH = "fold_model.bin"
 
 # Training file
-TRAINING_FILE = "../data/train.tsv"
+TRAINING_FILE = "../../data/train.tsv"
 
 # Test file
-TEST_FILE = "../data/test.tsv"
-PREDICTION_PATH = "../data/submission_test.csv"
+TEST_FILE = "../../data/test.tsv"
+PREDICTION_PATH = "../../data/submission_test.csv"
 
 # Tokenizer
 TOKENIZER = transformers.RobertaTokenizer.from_pretrained(TWITTER_ROBERTA_MODEL)
