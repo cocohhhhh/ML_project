@@ -8,4 +8,5 @@ The task of this competition is to predict if a tweet message used to contain a 
 --Manipulated       To store the trained models
 --Src               Providing the code we used in this project
 run.py              To get the submission file using the best model we find
+combined_analysis   Showing the overall workflow of this project.
 ```
