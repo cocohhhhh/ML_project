@@ -30,9 +30,6 @@ The project evaluates:
 - Emphasis on transformer-based models for their effectiveness.
 - Evaluation metrics include accuracy, precision, recall, F1-score, and model robustness.
 
-# Project Text Sentiment Classification
-The task of this competition is to predict if a tweet message used to contain a positive :) or negative :( smiley, by considering only the remaining text.
-
 ## Structure of this repository
 ```Bash
 --Data              To store the original dataset
