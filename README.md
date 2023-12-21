@@ -49,4 +49,5 @@ Models used are Decision Tree, Random Forest, Logistic Regression, LSTM, BERT, R
 ## Environment & Execution Instructions
 - Run in a Python environment, preferably a virtual environment.
 - Main execution file is `run.py`.
+    - The `run.py` is simply a prediction function of the best model we find (Roberta with 5 fold majority voting). On GPU, the prediction should be given within minutes. To train the model, please go to src folder and check different methods. But training is very time-consuming.
 - Can be run in Jupyter Notebook or Google Colab.
